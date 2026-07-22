@@ -40,6 +40,246 @@
         }
       }
     },
+    "RC0603FR-071K1L": {
+      "domain": "ecad.component",
+      "id": "prt_ec0603e24000001",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:19925bade687b357f036e38b889d4ba6"
+        }
+      }
+    },
+    "RC0603FR-071K2L": {
+      "domain": "ecad.component",
+      "id": "prt_ec0603e24000002",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:b34a620a11a49cfd6aa6ef2a5a3d9d46"
+        }
+      }
+    },
+    "RC0603FR-071K3L": {
+      "domain": "ecad.component",
+      "id": "prt_ec0603e24000003",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:fbb00fc43debff4eb1891b358e71554c"
+        }
+      }
+    },
+    "RC0603FR-071K5L": {
+      "domain": "ecad.component",
+      "id": "prt_ec0603e24000004",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:4fb255a3844b8e6338dab27aa7d0e47c"
+        }
+      }
+    },
+    "RC0603FR-071K6L": {
+      "domain": "ecad.component",
+      "id": "prt_ec0603e24000005",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:6e5077b353114d60ea08b5a6edd3b76d"
+        }
+      }
+    },
+    "RC0603FR-071K8L": {
+      "domain": "ecad.component",
+      "id": "prt_ec0603e24000006",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:d7089d9614a7081c6fd0af01812402e6"
+        }
+      }
+    },
+    "RC0603FR-071KL": {
+      "domain": "ecad.component",
+      "id": "prt_ec0603e24000000",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:dbc85f879a7ca8e647115b08c682cdf6"
+        }
+      }
+    },
+    "RC0603FR-072K2L": {
+      "domain": "ecad.component",
+      "id": "prt_ec0603e24000008",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:7741f69fc30cdfa271486d09173c73b0"
+        }
+      }
+    },
+    "RC0603FR-072K4L": {
+      "domain": "ecad.component",
+      "id": "prt_ec0603e24000009",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:5c0a0b278a87565556461752c96e15d7"
+        }
+      }
+    },
+    "RC0603FR-072K7L": {
+      "domain": "ecad.component",
+      "id": "prt_ec0603e2400000a",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:662caf36e620061d7b420e34647e6f27"
+        }
+      }
+    },
+    "RC0603FR-072KL": {
+      "domain": "ecad.component",
+      "id": "prt_ec0603e24000007",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:8a05505d34b310c8b0bc7d4e4f430062"
+        }
+      }
+    },
+    "RC0603FR-073K3L": {
+      "domain": "ecad.component",
+      "id": "prt_ec0603e2400000c",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:96da4a1a973107f6cb9240e4651a9981"
+        }
+      }
+    },
+    "RC0603FR-073K6L": {
+      "domain": "ecad.component",
+      "id": "prt_ec0603e2400000d",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:e9954a253a58162bf4f5c2686f796286"
+        }
+      }
+    },
+    "RC0603FR-073K9L": {
+      "domain": "ecad.component",
+      "id": "prt_ec0603e2400000e",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:9b510ed976dca26eaf08b1c7c959b3b8"
+        }
+      }
+    },
+    "RC0603FR-073KL": {
+      "domain": "ecad.component",
+      "id": "prt_ec0603e2400000b",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:f1d749187ba750ef805ae86f1bcc20bd"
+        }
+      }
+    },
+    "RC0603FR-074K3L": {
+      "domain": "ecad.component",
+      "id": "prt_ec0603e2400000f",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:9098cbe1d382f2194232e70e80c14a9d"
+        }
+      }
+    },
+    "RC0603FR-074K7L": {
+      "domain": "ecad.component",
+      "id": "prt_ec0603e24000010",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:d03ae8207eae7b8be24ab7d8ec177811"
+        }
+      }
+    },
+    "RC0603FR-075K1L": {
+      "domain": "ecad.component",
+      "id": "prt_ec0603e24000011",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:debe8c6a084718f3a0de7c9436f29a52"
+        }
+      }
+    },
+    "RC0603FR-075K6L": {
+      "domain": "ecad.component",
+      "id": "prt_ec0603e24000012",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:1d22d32c35e1cda9c2e61cfd51c998e7"
+        }
+      }
+    },
+    "RC0603FR-076K2L": {
+      "domain": "ecad.component",
+      "id": "prt_ec0603e24000013",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:36cf3be16bae7b90a6040342bddfce35"
+        }
+      }
+    },
+    "RC0603FR-076K8L": {
+      "domain": "ecad.component",
+      "id": "prt_ec0603e24000014",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:35d9e955e276dc842e7a36bee46fa8f0"
+        }
+      }
+    },
+    "RC0603FR-077K5L": {
+      "domain": "ecad.component",
+      "id": "prt_ec0603e24000015",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:d31c729ca9def79f8d82d93af11e2121"
+        }
+      }
+    },
+    "RC0603FR-078K2L": {
+      "domain": "ecad.component",
+      "id": "prt_ec0603e24000016",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:cbea8f44732c61b063329231372f6804"
+        }
+      }
+    },
+    "RC0603FR-079K1L": {
+      "domain": "ecad.component",
+      "id": "prt_ec0603e24000017",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:b7c18dafe0fef3477ca245e9c4e09eca"
+        }
+      }
+    },
     "altair-cradle": {
       "domain": "mech",
       "id": "prt_a17a1274ad1e0001",

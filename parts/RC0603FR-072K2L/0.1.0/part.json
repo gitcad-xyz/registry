@@ -1,0 +1,113 @@
+{
+  "body": {
+    "footprint": "prt_ec0a0000000000a3",
+    "footprint_name": "R0603",
+    "kind": "mpn-component",
+    "manufacturer": "Yageo",
+    "mpn": "RC0603FR-072K2L"
+  },
+  "deps": {
+    "prt_ec0a0000000000a3": "^0.1.0"
+  },
+  "domain": "ecad.component",
+  "id": "prt_ec0603e24000008",
+  "interface": {
+    "envelope": {
+      "dx": 2.4,
+      "dy": 1.4,
+      "dz": 1.0,
+      "origin": [
+        -1.2,
+        -0.7,
+        0.0
+      ]
+    },
+    "frames": {
+      "origin": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "pad_1": {
+        "origin": [
+          -0.75,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "pad_2": {
+        "origin": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "ports": {
+      "pad_1": {
+        "frame": "pad_1",
+        "name": "pad_1",
+        "spec": {
+          "h": 0.95,
+          "shape": "rect",
+          "w": 0.9
+        },
+        "type": "elec.pin"
+      },
+      "pad_2": {
+        "frame": "pad_2",
+        "name": "pad_2",
+        "spec": {
+          "h": 0.95,
+          "shape": "rect",
+          "w": 0.9
+        },
+        "type": "elec.pin"
+      }
+    },
+    "properties": {
+      "kind": "resistor",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-072K2L",
+      "power": "0.1W",
+      "series": "RC0603FR-07",
+      "tolerance": "1%",
+      "value_ohm": 2200.0
+    }
+  },
+  "name": "RC0603FR-072K2L",
+  "schema": "gitcad/part@1",
+  "version": "0.1.0"
+}

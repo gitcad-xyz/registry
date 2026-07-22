@@ -59,6 +59,22 @@ def main() -> int:
         if len(ids) > 1:
             problems.append(f"{name}: versions disagree on part id: {sorted(ids)}")
 
+        for v, m in manifests.items():
+            body = m.body or {}
+            if body.get("kind") == "mpn-component":
+                fp_dep = body.get("footprint", "")
+                if fp_dep not in m.deps:
+                    problems.append(f"{name}/{v}: mpn-component footprint not in deps")
+                ds = body.get("datasheet")
+                if ds is None:
+                    print(f"  note: {name}/{v} has no datasheet anchor (draft tier)")
+                else:
+                    import re as _re
+                    if "url" not in ds or not _re.fullmatch(r"[0-9a-f]{64}", ds.get("sha256", "")):
+                        problems.append(f"{name}/{v}: malformed datasheet anchor")
+                if not m.interface.ports:
+                    problems.append(f"{name}/{v}: component has no ports")
+
         ordered = sorted(manifests, key=Version.parse)
         for old_v, new_v in zip(ordered, ordered[1:]):
             violations = check_release(old_v, new_v,
