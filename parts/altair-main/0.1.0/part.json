@@ -1,0 +1,152 @@
+{
+  "body": {
+    "board": "altair-main.gitcad.json"
+  },
+  "deps": {},
+  "domain": "ecad",
+  "id": "prt_a17a12b0a2d00001",
+  "interface": {
+    "envelope": {
+      "dx": 80.0,
+      "dy": 50.0,
+      "dz": 1.6,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "frames": {
+      "mnt_1": {
+        "origin": [
+          4.0,
+          4.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "mnt_2": {
+        "origin": [
+          76.0,
+          4.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "mnt_3": {
+        "origin": [
+          76.0,
+          46.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "mnt_4": {
+        "origin": [
+          4.0,
+          46.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "origin": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "ports": {
+      "mnt_1": {
+        "frame": "mnt_1",
+        "name": "mnt_1",
+        "spec": {
+          "drill": 2.7,
+          "thread": "M2.5"
+        },
+        "type": "mech.bolt"
+      },
+      "mnt_2": {
+        "frame": "mnt_2",
+        "name": "mnt_2",
+        "spec": {
+          "drill": 2.7,
+          "thread": "M2.5"
+        },
+        "type": "mech.bolt"
+      },
+      "mnt_3": {
+        "frame": "mnt_3",
+        "name": "mnt_3",
+        "spec": {
+          "drill": 2.7,
+          "thread": "M2.5"
+        },
+        "type": "mech.bolt"
+      },
+      "mnt_4": {
+        "frame": "mnt_4",
+        "name": "mnt_4",
+        "spec": {
+          "drill": 2.7,
+          "thread": "M2.5"
+        },
+        "type": "mech.bolt"
+      }
+    },
+    "properties": {
+      "components": 3.0,
+      "layers": 2.0
+    }
+  },
+  "name": "altair-main",
+  "schema": "gitcad/part@1",
+  "version": "0.1.0"
+}

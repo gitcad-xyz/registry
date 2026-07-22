@@ -1,0 +1,47 @@
+{
+  "body": {
+    "model": "altair-cradle.gitcad.json"
+  },
+  "deps": {},
+  "domain": "mech",
+  "id": "prt_a17a1274ad1e0001",
+  "interface": {
+    "envelope": {
+      "dx": 44.0,
+      "dy": 70.0,
+      "dz": 22.0,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "frames": {
+      "origin": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "ports": {},
+    "properties": {
+      "kernel": "occt-7.9.3.1.1",
+      "volume_mm3": 66401.418
+    }
+  },
+  "name": "altair-cradle",
+  "schema": "gitcad/part@1",
+  "version": "0.1.0"
+}

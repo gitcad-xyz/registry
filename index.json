@@ -1,5 +1,75 @@
 {
   "parts": {
+    "HDR-2P-2.54": {
+      "domain": "ecad.component",
+      "id": "prt_ec0a0000000000a1",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:f77a80f668af6c73364a01736a58a6f4"
+        }
+      }
+    },
+    "LED0603": {
+      "domain": "ecad.component",
+      "id": "prt_ec0a0000000000a4",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:5a4010ebad7c5157e968bafcd2efd2d2"
+        }
+      }
+    },
+    "QFN8-REP": {
+      "domain": "ecad.component",
+      "id": "prt_ec0a0000000000a2",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:1281d5d16034ba42bd29e7772ec71a51"
+        }
+      }
+    },
+    "R0603": {
+      "domain": "ecad.component",
+      "id": "prt_ec0a0000000000a3",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:3750fa91d212accb7d3ac76ccdfba030"
+        }
+      }
+    },
+    "altair-cradle": {
+      "domain": "mech",
+      "id": "prt_a17a1274ad1e0001",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:ed2cd2006b40841a857b6d5f840b98f7"
+        }
+      }
+    },
+    "altair-housing": {
+      "domain": "mech",
+      "id": "prt_a17a1240054e0001",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:793ba51efe56f6d129c73c057efbd8fd"
+        }
+      }
+    },
+    "altair-main": {
+      "domain": "ecad",
+      "id": "prt_a17a12b0a2d00001",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:73e3a8cf06a0b8f1291c1b569e6519f6"
+        }
+      }
+    },
     "blinky": {
       "domain": "ecad",
       "id": "prt_b0a4d0000000cafe",

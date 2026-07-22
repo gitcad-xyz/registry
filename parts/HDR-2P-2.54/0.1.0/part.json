@@ -1,0 +1,133 @@
+{
+  "body": {
+    "footprint": {
+      "courtyard": [
+        3.0,
+        5.6
+      ],
+      "name": "HDR-2P-2.54",
+      "pads": [
+        {
+          "drill": 1.0,
+          "h": 1.7,
+          "name": "1",
+          "net": "",
+          "shape": "circle",
+          "w": 1.7,
+          "x": 0.0,
+          "y": -1.27
+        },
+        {
+          "drill": 1.0,
+          "h": 1.7,
+          "name": "2",
+          "net": "",
+          "shape": "circle",
+          "w": 1.7,
+          "x": 0.0,
+          "y": 1.27
+        }
+      ]
+    },
+    "kind": "footprint"
+  },
+  "deps": {},
+  "domain": "ecad.component",
+  "id": "prt_ec0a0000000000a1",
+  "interface": {
+    "envelope": {
+      "dx": 3.0,
+      "dy": 5.6,
+      "dz": 1.0,
+      "origin": [
+        -1.5,
+        -2.8,
+        0.0
+      ]
+    },
+    "frames": {
+      "origin": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "pad_1": {
+        "origin": [
+          0.0,
+          -1.27,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "pad_2": {
+        "origin": [
+          0.0,
+          1.27,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "ports": {
+      "pad_1": {
+        "frame": "pad_1",
+        "name": "pad_1",
+        "spec": {
+          "drill": 1.0,
+          "h": 1.7,
+          "shape": "circle",
+          "w": 1.7
+        },
+        "type": "elec.pin"
+      },
+      "pad_2": {
+        "frame": "pad_2",
+        "name": "pad_2",
+        "spec": {
+          "drill": 1.0,
+          "h": 1.7,
+          "shape": "circle",
+          "w": 1.7
+        },
+        "type": "elec.pin"
+      }
+    },
+    "properties": {
+      "pads": 2.0,
+      "pitch_mm": 2.54
+    }
+  },
+  "name": "HDR-2P-2.54",
+  "schema": "gitcad/part@1",
+  "version": "0.1.0"
+}

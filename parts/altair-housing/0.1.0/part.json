@@ -1,0 +1,148 @@
+{
+  "body": {
+    "model": "altair-housing.gitcad.json"
+  },
+  "deps": {},
+  "domain": "mech",
+  "id": "prt_a17a1240054e0001",
+  "interface": {
+    "envelope": {
+      "dx": 92.0,
+      "dy": 62.0,
+      "dz": 30.0,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "frames": {
+      "boss_1": {
+        "origin": [
+          10.0,
+          10.0,
+          3.5
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "boss_2": {
+        "origin": [
+          82.0,
+          10.0,
+          3.5
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "boss_3": {
+        "origin": [
+          82.0,
+          52.0,
+          3.5
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "boss_4": {
+        "origin": [
+          10.0,
+          52.0,
+          3.5
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "origin": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "ports": {
+      "boss_1": {
+        "frame": "boss_1",
+        "name": "boss_1",
+        "spec": {
+          "thread": "M2.5"
+        },
+        "type": "mech.boss"
+      },
+      "boss_2": {
+        "frame": "boss_2",
+        "name": "boss_2",
+        "spec": {
+          "thread": "M2.5"
+        },
+        "type": "mech.boss"
+      },
+      "boss_3": {
+        "frame": "boss_3",
+        "name": "boss_3",
+        "spec": {
+          "thread": "M2.5"
+        },
+        "type": "mech.boss"
+      },
+      "boss_4": {
+        "frame": "boss_4",
+        "name": "boss_4",
+        "spec": {
+          "thread": "M2.5"
+        },
+        "type": "mech.boss"
+      }
+    },
+    "properties": {
+      "kernel": "occt-7.9.3.1.1",
+      "volume_mm3": 27918.134
+    }
+  },
+  "name": "altair-housing",
+  "schema": "gitcad/part@1",
+  "version": "0.1.0"
+}

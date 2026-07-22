@@ -1,0 +1,204 @@
+{
+  "body": {
+    "footprint": {
+      "courtyard": [
+        8.0,
+        5.0
+      ],
+      "name": "QFN8-REP",
+      "pads": [
+        {
+          "drill": null,
+          "h": 0.8,
+          "name": "1",
+          "net": "",
+          "shape": "rect",
+          "w": 1.2,
+          "x": -3.0,
+          "y": 1.0
+        },
+        {
+          "drill": null,
+          "h": 0.8,
+          "name": "2",
+          "net": "",
+          "shape": "rect",
+          "w": 1.2,
+          "x": -3.0,
+          "y": -1.0
+        },
+        {
+          "drill": null,
+          "h": 0.8,
+          "name": "3",
+          "net": "",
+          "shape": "rect",
+          "w": 1.2,
+          "x": 3.0,
+          "y": 1.0
+        },
+        {
+          "drill": null,
+          "h": 0.8,
+          "name": "4",
+          "net": "",
+          "shape": "rect",
+          "w": 1.2,
+          "x": 3.0,
+          "y": -1.0
+        }
+      ]
+    },
+    "kind": "footprint"
+  },
+  "deps": {},
+  "domain": "ecad.component",
+  "id": "prt_ec0a0000000000a2",
+  "interface": {
+    "envelope": {
+      "dx": 8.0,
+      "dy": 5.0,
+      "dz": 1.0,
+      "origin": [
+        -4.0,
+        -2.5,
+        0.0
+      ]
+    },
+    "frames": {
+      "origin": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "pad_1": {
+        "origin": [
+          -3.0,
+          1.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "pad_2": {
+        "origin": [
+          -3.0,
+          -1.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "pad_3": {
+        "origin": [
+          3.0,
+          1.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "pad_4": {
+        "origin": [
+          3.0,
+          -1.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "ports": {
+      "pad_1": {
+        "frame": "pad_1",
+        "name": "pad_1",
+        "spec": {
+          "h": 0.8,
+          "shape": "rect",
+          "w": 1.2
+        },
+        "type": "elec.pin"
+      },
+      "pad_2": {
+        "frame": "pad_2",
+        "name": "pad_2",
+        "spec": {
+          "h": 0.8,
+          "shape": "rect",
+          "w": 1.2
+        },
+        "type": "elec.pin"
+      },
+      "pad_3": {
+        "frame": "pad_3",
+        "name": "pad_3",
+        "spec": {
+          "h": 0.8,
+          "shape": "rect",
+          "w": 1.2
+        },
+        "type": "elec.pin"
+      },
+      "pad_4": {
+        "frame": "pad_4",
+        "name": "pad_4",
+        "spec": {
+          "h": 0.8,
+          "shape": "rect",
+          "w": 1.2
+        },
+        "type": "elec.pin"
+      }
+    },
+    "properties": {
+      "pads": 4.0
+    }
+  },
+  "name": "QFN8-REP",
+  "schema": "gitcad/part@1",
+  "version": "0.1.0"
+}
