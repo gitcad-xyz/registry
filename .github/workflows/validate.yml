@@ -16,7 +16,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: install gitcad (core — gates are pure Python)
-        run: pip install "git+https://github.com/gitcad-xyz/gitcad"
+        run: pip install "gitcad-core @ git+https://github.com/gitcad-xyz/gitcad#subdirectory=packages/gitcad-core"
       - name: machine gates + index check
         run: python scripts/validate.py
       - name: immutability — published parts are never edited
