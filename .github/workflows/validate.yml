@@ -1,0 +1,32 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  gates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: install gitcad (core — gates are pure Python)
+        run: pip install "git+https://github.com/gitcad-xyz/gitcad"
+      - name: machine gates + index check
+        run: python scripts/validate.py
+      - name: immutability — published parts are never edited
+        if: github.event_name == 'pull_request'
+        run: |
+          git fetch origin ${{ github.base_ref }}
+          CHANGED=$(git diff --name-status origin/${{ github.base_ref }}...HEAD -- 'parts/**/part.json' | grep -v '^A' || true)
+          if [ -n "$CHANGED" ]; then
+            echo "published part.json files may never be modified or deleted —"
+            echo "publish a new version instead (ADR-0009/0010):"
+            echo "$CHANGED"
+            exit 1
+          fi

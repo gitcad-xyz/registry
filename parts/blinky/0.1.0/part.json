@@ -1,0 +1,100 @@
+{
+  "body": {
+    "board": "blinky.gitcad.json"
+  },
+  "deps": {},
+  "domain": "ecad",
+  "id": "prt_b0a4d0000000cafe",
+  "interface": {
+    "envelope": {
+      "dx": 30.0,
+      "dy": 20.0,
+      "dz": 1.6,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "frames": {
+      "mnt_1": {
+        "origin": [
+          3.0,
+          3.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "mnt_2": {
+        "origin": [
+          27.0,
+          17.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "origin": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "ports": {
+      "mnt_1": {
+        "frame": "mnt_1",
+        "name": "mnt_1",
+        "spec": {
+          "drill": 3.2,
+          "thread": "M3"
+        },
+        "type": "mech.bolt"
+      },
+      "mnt_2": {
+        "frame": "mnt_2",
+        "name": "mnt_2",
+        "spec": {
+          "drill": 3.2,
+          "thread": "M3"
+        },
+        "type": "mech.bolt"
+      }
+    },
+    "properties": {
+      "components": 0.0,
+      "layers": 2.0
+    }
+  },
+  "name": "blinky",
+  "schema": "gitcad/part@1",
+  "version": "0.1.0"
+}

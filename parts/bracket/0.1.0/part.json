@@ -1,0 +1,98 @@
+{
+  "body": {
+    "model": "bracket.gitcad.json"
+  },
+  "deps": {},
+  "domain": "mech",
+  "id": "prt_facade0000000001",
+  "interface": {
+    "envelope": {
+      "dx": 60.0,
+      "dy": 40.0,
+      "dz": 8.0,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "frames": {
+      "boss_1": {
+        "origin": [
+          13.0,
+          13.0,
+          8.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "boss_2": {
+        "origin": [
+          37.0,
+          27.0,
+          8.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "origin": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "z_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "ports": {
+      "boss_1": {
+        "frame": "boss_1",
+        "name": "boss_1",
+        "spec": {
+          "thread": "M3"
+        },
+        "type": "mech.boss"
+      },
+      "boss_2": {
+        "frame": "boss_2",
+        "name": "boss_2",
+        "spec": {
+          "thread": "M3"
+        },
+        "type": "mech.boss"
+      }
+    },
+    "properties": {
+      "kernel": "occt-7.9.3.1.1",
+      "volume_mm3": 19200.0
+    }
+  },
+  "name": "bracket",
+  "schema": "gitcad/part@1",
+  "version": "0.1.0"
+}

@@ -1,0 +1,25 @@
+{
+  "parts": {
+    "blinky": {
+      "domain": "ecad",
+      "id": "prt_b0a4d0000000cafe",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:494b52c2e780224e056faebf1febca8f"
+        }
+      }
+    },
+    "bracket": {
+      "domain": "mech",
+      "id": "prt_facade0000000001",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "content": "blake2b:ba444358ef6d6d6700dabf8b0144e295"
+        }
+      }
+    }
+  },
+  "schema": "gitcad/registry-index@1"
+}
